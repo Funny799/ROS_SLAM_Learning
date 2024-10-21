@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="hello_pkg" type="hello_node" name="hello_node" />
+    <!-- lauch-prefix="gnome-terminal -e" -->
+    <node pkg="reHello_pkg" type="reHello_node" name="reHello_node" output="screen"/>
+</launch>
