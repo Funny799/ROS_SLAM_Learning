@@ -1,6 +1,7 @@
 <launch>
     <!-- 设置launch文件的参数 -->
-    <arg name="world_name" value="$(find wheeltec_description)/worlds/wheeltec.world"/> <!--地图文件位置及命名-->
+    <!-- <arg name="world_name" value="$(find wheeltec_description)/worlds/wheeltec.world"/> 地图文件位置及命名 -->
+    <arg name="world_name" value="$(find wheeltec_description)/worlds/myworld.world"/> <!--地图文件位置及命名-->
     <arg name="paused" default="false"/> <!--以暂停状态打开Gazebo 默认为false-->
     <arg name="use_sim_time" default="true"/> <!--节点启动模拟时间，启动主题topic /clock 默认为true-->
     <arg name="gui" default="true"/> <!--启动Gazebo用户界面接口 默认为true-->

@@ -45,5 +45,6 @@ $(arg car_mode)_joint_state_controller"/>
         <arg name="car_mode" value="$(arg car_mode)"/>
     </include>
     <!--打开rviz-->
-    <node name="rviz" pkg="rviz" type="rviz"  args="-d $(find wheeltec_gazebo_function)/rviz_config/$(arg car_mode).rviz"/>
+    <!-- <node name="rviz" pkg="rviz" type="rviz"  args="-d $(find wheeltec_gazebo_function)/rviz_config/$(arg car_mode).rviz"/> -->
+    <node name="rviz" pkg="rviz" type="rviz"/>
 </launch>

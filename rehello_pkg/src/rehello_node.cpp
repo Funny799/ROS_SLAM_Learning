@@ -6,7 +6,7 @@ void reply_callback(std_msgs::String msg);
 
 int main(int argc, char *argv[])
 {
-    ros::init(argc,argv,"reHello_node");
+    ros::init(argc,argv,"rehello_node");
     ros::NodeHandle nh;
 
     //配置订阅名称为"Publish_Test"的话题，接收窗口为10，接收到消息后执行回调函数reply_callback()
