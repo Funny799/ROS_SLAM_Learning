@@ -26,9 +26,9 @@ def set_mini_akm_velocity_steering(data):
     else:
         g=-1
     if w >= 0 :
-	    k = 1       #turn left
+        k = 1       #turn left
     else:
-	    k = -1      #turn right
+        k = -1      #turn right
     if w == 0 :
         wl = 0
         wr = 0
@@ -42,16 +42,16 @@ def set_mini_akm_velocity_steering(data):
         m= R **2 -a2 **2
         ml= abs(m) **0.5 - k*(wheelbase/2)
         mr= abs(m) **0.5 + k*(wheelbase/2)
-	if m < 0 or ml<0 or mr<0 :
-            wl=0
-            wr=0
-            vlr = 0
-            vrr = 0
-	else :
-            vlr= (g*(((v**2) -((w*a2)**2))**0.5-((g*wheelbase*w)/2)))/0.031 
-            vrr= (g*(((v**2) -((w*a2)**2))**0.5+((g*wheelbase*w)/2)))/0.031 
-            wl = g*k*math.atan(l/ml)
-            wr = g*k*math.atan(l/mr)
+        if m < 0 or ml<0 or mr<0 :
+                wl=0
+                wr=0
+                vlr = 0
+                vrr = 0
+        else :
+                vlr= (g*(((v**2) -((w*a2)**2))**0.5-((g*wheelbase*w)/2)))/0.031 
+                vrr= (g*(((v**2) -((w*a2)**2))**0.5+((g*wheelbase*w)/2)))/0.031 
+                wl = g*k*math.atan(l/ml)
+                wr = g*k*math.atan(l/mr)
     #publish velocity to controller command
     pub_pos_mini_akm_left_front_steering_hinge.publish(wl)
     pub_pos_mini_akm_right_front_steering_hinge.publish(wr)

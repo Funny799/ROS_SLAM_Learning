@@ -20,10 +20,10 @@
     <transmission name="${LR}_${FR}_wheel_joint_trans">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="${LR}_${FR}_wheel_joint">
-            <hardwareInterface>VelocityJointInterface</hardwareInterface>
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
         </joint>
         <actuator name="${LR}_${FR}_wheel_joint_motor">
-            <hardwareInterface>VelocityJointInterface</hardwareInterface>
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
             <mechanicalReduction>1</mechanicalReduction>
         </actuator>
     </transmission>
@@ -32,10 +32,10 @@
     <transmission name="${LR}_steering_trans">
       <type>transmission_interface/SimpleTransmission</type>
       <joint name="${LR}_steering_joint">
-        <hardwareInterface>PositionJointInterface</hardwareInterface>
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
       </joint>
       <actuator name="${LR}_steering_act">
-        <hardwareInterface>PositionJointInterface</hardwareInterface>
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
         <mechanicalReduction>1</mechanicalReduction>
       </actuator>
     </transmission>

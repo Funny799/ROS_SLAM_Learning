@@ -28,11 +28,11 @@
 ## G Mapping 
 1. 软件包直接安装
    ```bash
-   sudo apt install ros-noetic-openslam-gmapping ros-melodic-gmapping
+   sudo apt install ros-noetic-openslam-gmapping ros-noetic-gmapping
    ```
 2. 下载源码编译（推荐）   
    ```bash
-   sudo apt remove ros-noetic-openslam-gmapping ros-melodic-gmapping # 先通过软件包安装，再卸载软件包保证依赖
+   sudo apt remove ros-noetic-openslam-gmapping ros-noetic-gmapping # 先通过软件包安装，再卸载软件包保证依赖
    cd ~/catkin_ws/src
    git clone https://github.com/ros-perception/slam_gmapping.git
    git clone https://github.com/ros-perception/openslam_gmapping.git

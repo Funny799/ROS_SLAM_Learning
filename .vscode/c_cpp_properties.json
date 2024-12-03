@@ -6,7 +6,7 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/opt/ros/melodic/include/**",
+        "/opt/ros/noetic/include/**",
         "/home/funny799/catkin_ws/src/hello_pkg/include/**",
         "/home/funny799/catkin_ws/src/wpr_simulation/include/**",
         "/usr/include/**"
