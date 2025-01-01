@@ -3,7 +3,7 @@
 ## Hector Mapping
 1. 软件包直接安装
    ```bash
-   sudo apt install ros-noetic-hector-mapping
+   sudo apt install -y ros-noetic-hector-mapping
    ```
 2. 下载源码编译（推荐）
    ```bash
@@ -28,7 +28,7 @@
 ## G Mapping 
 1. 软件包直接安装
    ```bash
-   sudo apt install ros-noetic-openslam-gmapping ros-noetic-gmapping
+   sudo apt install -y ros-noetic-openslam-gmapping ros-noetic-gmapping
    ```
 2. 下载源码编译（推荐）   
    ```bash

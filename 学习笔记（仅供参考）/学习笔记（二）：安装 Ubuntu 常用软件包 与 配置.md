@@ -2,7 +2,7 @@
 
 1. 超级终端
    ```bash
-   sudo apt install terminator 
+   sudo apt install -y terminator 
    gedit ~/.config/terminator/config # 修改默认打开的窗口大小
    ```
    配置文件如下：
@@ -26,8 +26,7 @@
 3. git 工具
    ```bash
    # 安装
-   sudo apt install git
-   sudo apt install ssh
+   sudo apt install -y git ssh
    git config --global user.name ""
    git config --global user.email ""
    git config --global color.ui true

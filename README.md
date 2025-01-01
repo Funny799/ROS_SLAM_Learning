@@ -15,4 +15,3 @@
 [tu-darmstadt-ros-pkg/hector_slam](https://github.com/tu-darmstadt-ros-pkg/hector_slam)  
 [ros-perception/openslam_gmapping](https://github.com/ros-perception/openslam_gmapping)  
 [ros-perception/slam_gmapping](https://github.com/ros-perception/slam_gmapping)  
-[rst-tu-dortmund/teb_local_planner](https://github.com/rst-tu-dortmund/teb_local_planner)  

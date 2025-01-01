@@ -29,8 +29,7 @@
    ```   
 6. 用于构建包的依赖项
    ```bash
-   sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
-   sudo apt install python3-rosdep
+   sudo apt install -y python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
    sudo rosdep init
    rosdep update
    ```     
