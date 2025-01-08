@@ -1,18 +1,6 @@
-# 学习笔记（二）：安装 Ubuntu 常用软件包 与 配置
+# 学习笔记（II）：安装 Ubuntu 常用软件包 与 配置
 
-1. 超级终端
-   ```bash
-   sudo apt install -y terminator 
-   gedit ~/.config/terminator/config # 修改默认打开的窗口大小
-   ```
-   配置文件如下：
-   ```
-   [[[window0]]]
-      type = Window
-      parent = ""
-      size = 1280, 720
-   ```
-2. 修改 Ubuntu 开关机等待时间
+1. 修改 Ubuntu 开关机等待时间
    ```bash
    sudo gedit /etc/systemd/system.conf
    ```
@@ -23,7 +11,7 @@
    DefaultTimeoutStopSec=15s
    #DefaultTimeoutStopSec=90s
    ```
-3. git 工具
+2. git 工具
    ```bash
    # 安装
    sudo apt install -y git ssh

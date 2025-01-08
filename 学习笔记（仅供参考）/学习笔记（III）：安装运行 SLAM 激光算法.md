@@ -1,4 +1,4 @@
-# 学习笔记（二）：安装 Ubuntu 常用软件包 与 配置
+# 学习笔记（III）：安装 Ubuntu 常用软件包 与 配置
 
 ## Hector Mapping
 1. 软件包直接安装

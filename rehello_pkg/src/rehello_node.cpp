@@ -23,6 +23,6 @@ int main(int argc, char *argv[])
 
 //回调函数 实现
 void reply_callback(std_msgs::String msg){
-    ROS_INFO(msg.data.c_str());
+    ROS_INFO("%s",msg.data.c_str());
 }
 

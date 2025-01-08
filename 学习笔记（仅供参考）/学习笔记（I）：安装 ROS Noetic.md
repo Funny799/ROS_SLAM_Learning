@@ -1,4 +1,4 @@
-# 学习笔记（一）：安装 ROS Noetic
+# 学习笔记（I）：安装 ROS Noetic
 
 建议在稳定的科学上网环境中安装  
 [ROS官方安装指导](https://wiki.ros.org/noetic/Installation/Ubuntu)
